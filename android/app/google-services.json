@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1079276447565",
+    "project_id": "flutterpasswordmanager-a44f7",
+    "storage_bucket": "flutterpasswordmanager-a44f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079276447565:android:106756db9bfbcdadf53904",
+        "android_client_info": {
+          "package_name": "com.example.flutter_password_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079276447565-3k7k9uibsvhu84g03o4pla17igbhuars.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqeiqCjayUY_xqQz-m2KfCR6IgjiZVpY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079276447565-3k7k9uibsvhu84g03o4pla17igbhuars.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1079276447565-s4023lr0hv3tbg3tsdbcks4ndsj4u3nn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterPasswordManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
