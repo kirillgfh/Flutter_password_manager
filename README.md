@@ -1,16 +1,32 @@
-# flutter_password_manager
+# PasswordManager
 
-A new Flutter application.
+Менеджер-генератор паролей для 
+**Windows** | **Android**
+  
+Прилоежение написано под android Если хотетие посмотреть проект, его надо скачать к себе на компьютер.
 
-## Getting Started
+## Запуск приложения android 
+  · Скачать apk с яндекс диска - [ссылка на яндекс диск](https://disk.yandex.ru/d/VNtkjHJZucihgg)
+  · запустить, установить apk.
+  
+## Запуск приложения Windows 
+  · Скачать файлы с яндекс диска - [ссылка на яндекс диск]()
+  · скопировать файлы себе на компьютер, запустить.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Использованный инструментарий
+  Проект написан на языке **Dart** с помощью мультиплатформенного фреймфорка **Flutter**.
+  База данных реализованна на **firebase**.
+  
+  ### Библиотеки использованные в Flutter
+    "crypto" - для использования алгоритмов хеширования.
+    "firebase_core" - для взаимодействия с базой данных.
+    "lottie" и "flutter_hooks" - для создания начального splash экрана
+    "another_flushbar" - для вывода уведомлений (подобие toast в нативной android разработке) 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Релизованный функционал
+  Регистрация, соответственно аутентификация с помощью почты.
+  Генерация пароля с помощью разных хеш-функций.
+  Сохранение хеша вашего пароля (через MD5).
+  Проверка правильности пароля.
+  Доступный интрефейс.
